@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+*.virtualenv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Vector database (too large for git)
+chroma_db/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (optional - comment out if you want to track small test PDFs)
+data/raw/*.pdf
+data/processed/
